@@ -15,3 +15,14 @@ Comprobamos que no está ejecutándose con el comando:
 Y obtenemos el nombre con el comando:
 -`docker ps -a`
 vemos que tiene un nombre generado aleatóriamente
+
+>3:Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
+
+La sintáxis para crear el contenedor dam_alp1 es prácticamente igual,la diferencia es
+que especificámos el parámetro **--name**
+
+-`sudo docker container create -i -t --name dam_alp1 alpine`
+
+Para poder iniciarlo y acceder directamente a el utilizarémos el siguiente comando:
+-`start --attach -i dam_alp1`
+con **--attack** accedemos directamente
