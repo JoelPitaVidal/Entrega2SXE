@@ -44,3 +44,7 @@ Creamos el contenedor con el comando anteriormente mencionado:
 y con el comando:-`start --attach -i dam_alp2` lo iniciámos.
 
 Finálmente con:-`ping 172.17.0.2` hacemos ping a dam_alp1, confirmando que si es posible
+
+>6:Sal del terminal, ¿que ocurrió con el contenedor?
+
+Al salir de la terminal con -`shift d` se apaga el contenedor
